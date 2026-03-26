@@ -1,0 +1,22 @@
+# 忽略 MAT 数据文件（你的核心数据）
+*.mat
+
+# 忽略 PyTorch 模型权重文件
+*.pth
+*.pt
+
+# 忽略 Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略日志和临时文件
+*.log
+*.tmp
+*.swp
+
+
+# 忽略环境文件（可选，如果你不想上传环境配置）
+# environment.yml
+# requirements.txt
